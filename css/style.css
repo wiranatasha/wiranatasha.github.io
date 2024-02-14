@@ -1473,18 +1473,32 @@ blockquote .person cite {
   align-items: center;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 100px;
+  padding-top: 35px;
   max-width: 600px;
   min-height: 800px;
   height: 100%;
-  background-image: url('../images/01_cropped.jpg');
   background-size: cover; 
   background-repeat: no-repeat;
   background-position: center center;
 }
 
+.invite-event {
+  font-family: Roboto;
+  font-size: 20px;
+  color: white;
+  text-shadow: -0.1px 0 black, 0 0.1px black, 0.1px 0 black, 0 -0.1px black;
+}
+
+.invite-couple {
+  font-family: Dancing Script;
+  font-weight: 700;
+  flont-size: 26px;
+  color: white;
+  text-shadow: -0.1px 0 black, 0 0.1px black, 0.1px 0 black, 0 -0.1px black;
+}
+
 .invite-dear {
-  padding-top: 70px;
+  padding-top: 20px;
   font-size: 22px;
   font-family: Dancing Script;
   color: white;
@@ -1495,7 +1509,7 @@ blockquote .person cite {
   font-size: 26px;
   font-family: Times;
   color: white;
-  padding-bottom: 10px;
+  padding-bottom: 40px;
   text-shadow: -0.1px 0 black, 0 0.1px black, 0.1px 0 black, 0 -0.1px black;
 }
 
