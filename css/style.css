@@ -1491,7 +1491,7 @@ blockquote .person cite {
 
 .invite-couple {
   font-family: Dancing Script;
-  font-weight: 700;
+  font-weight: 900;
   flont-size: 26px;
   color: white;
   text-shadow: -0.1px 0 black, 0 0.1px black, 0.1px 0 black, 0 -0.1px black;
@@ -1500,7 +1500,7 @@ blockquote .person cite {
 .invite-dear {
   padding-top: 20px;
   font-size: 22px;
-  font-family: Dancing Script;
+  font-family: Satisfy;
   color: white;
   text-shadow: -0.1px 0 black, 0 0.1px black, 0.1px 0 black, 0 -0.1px black;
 }
@@ -1515,7 +1515,7 @@ blockquote .person cite {
 
 .invite-message {
   font-size: 22px;
-  font-family: Dancing Script; 
+  font-family: Satisfy; 
   color: white;
   text-shadow: -0.1px 0 black, 0 0.1px black, 0.1px 0 black, 0 -0.1px black;
 }
