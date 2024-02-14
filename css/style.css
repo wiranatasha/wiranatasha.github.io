@@ -1452,3 +1452,56 @@ blockquote .person cite {
   color: saddlebrown;
   font-weight: 500;
 }
+
+.fullscreen-overlay {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background: rgba(0,0,0,0.85);
+  z-index: 10;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.popup {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 100px;
+  max-width: 600px;
+  min-height: 800px;
+  height: 100%;
+  background-image: url('../images/01_cropped.jpg');
+  background-size: cover; 
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.invite-dear {
+  padding-top: 70px;
+  font-size: 22px;
+  font-family: Dancing Script;
+  color: white;
+  text-shadow: -0.1px 0 black, 0 0.1px black, 0.1px 0 black, 0 -0.1px black;
+}
+
+.invite-name {
+  font-size: 26px;
+  font-family: Times;
+  color: white;
+  padding-bottom: 10px;
+  text-shadow: -0.1px 0 black, 0 0.1px black, 0.1px 0 black, 0 -0.1px black;
+}
+
+.invite-message {
+  font-size: 22px;
+  font-family: Dancing Script; 
+  color: white;
+  text-shadow: -0.1px 0 black, 0 0.1px black, 0.1px 0 black, 0 -0.1px black;
+}
